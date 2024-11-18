@@ -5,7 +5,47 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>funny canvas</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+canvas {
+  background-color: black;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Arial;
+  font-size: 144px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: Arial;
+  font-size: 56px;
+}
+
+img {
+  margin: 0 auto;
+}
 </head>
 
 <body>
@@ -16,7 +56,6 @@
     <img height=50 width=50
       src="https://preview.redd.it/snut2ed4ulr91.png?auto=webp&s=f615020694ccf20031e548244eec15ab8e28480a">
   </div>
-  <script src="script.js"></script>
 </body>
 
 </html>
